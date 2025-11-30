@@ -6,7 +6,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-[#2C3E50] text-white shadow py-4 px-4 fixed top-0 left-0 w-full z-10">
-      <div className="container w-10/12 mx-auto flex justify-between items-center">
+<div className="container w-10/12 mx-auto flex justify-between items-center">
         
         {/* Logo */}
         <h2 className="uppercase font-bold text-[24px] md:text-[32px]">
@@ -44,11 +44,13 @@ export default function Navbar() {
         </button>
 
         {/* Menu */}
-        <ul
-          className={`flex flex-col md:flex-row gap-4 md:gap-6 font-bold text-[16px] uppercase absolute md:static bg-[#2C3E50] w-full left-0 md:w-auto px-4 md:px-0 transition-all duration-300 ease-in-out ${
-            isOpen ? 'top-[64px] opacity-100' : 'top-[-500px] opacity-0 md:opacity-100'
-          }`}
-        >
+       <ul className={`flex flex-col md:flex-row gap-4 md:gap-6 font-bold text-[16px] uppercase 
+  absolute md:static bg-[#2C3E50] w-full left-0 md:w-auto px-4 md:px-0 
+  transition-all duration-300 ease-in-out 
+  ${isOpen ? 'top-[64px]' : 'top-[-400px]'} 
+  md:top-auto
+`}>
+
           <li>
             <NavLink to="/About" onClick={() => setIsOpen(false)}>
               About

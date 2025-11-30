@@ -15,7 +15,7 @@ export default function Contact() {
                           <span className="absolute right-10 w-20 border-3 border-[#2c3e50] top-1/2"></span>
                         </div>
 
-      <form className="w-2/4   ">
+      <form className="w-full md:w-2/4  ">
         
         {/* User Name */}
         <div className="relative z-0 my-7">

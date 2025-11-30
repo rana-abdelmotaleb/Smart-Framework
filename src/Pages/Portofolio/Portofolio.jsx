@@ -7,7 +7,6 @@ export default function Portofolio() {
     const [isOpen, setIsOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
 
-  // دالة لفتح الصورة
   const openImage = (img) => {
     setSelectedImage(img);
     setIsOpen(true);

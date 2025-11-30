@@ -4,7 +4,7 @@ import logo from "./../../assets/imgi_1_avataaars.svg"
 export default function Home() {
   return (
    <div className='bg-[#1ABC9C] h-auto flex flex-col justify-center items-center py-30'>
-      <img src={logo} alt="" className='w-75 mb-4' />
+<img src={logo} alt="" className="w-48 mb-4 md:w-72 lg:w-96" />
       <h2 className='text-white text-[40px] font-bold uppercase mb-6'>Start Framework</h2>
           <div className="relative flex items-center justify-center text-white mb-4">
                          
