@@ -71,7 +71,7 @@ export default function Navbar() {
               Portfolio
             </NavLink>
           </li>
-          <li className='mb-8 md:mb-0'>
+          <li className='mb-7 md:mb-0'>
             <NavLink to="/Contact" onClick={() => setIsOpen(false)}>
               Contact
             </NavLink>
