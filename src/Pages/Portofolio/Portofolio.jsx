@@ -14,7 +14,7 @@ export default function Portofolio() {
   return (
     <>
       <section className=" h-auto flex flex-col justify-center items-center pt-40">
-        <h2 className="text-[#2c3e50] text-[40px] font-bold mb-4 uppercase">
+        <h2 className="text-[#2c3e50] text-center text-[40px] font-bold mb-4 uppercase">
           portfolio component
         </h2>
         <div className="relative flex items-center justify-center text-[#2c3e50] mb-5">

@@ -44,12 +44,22 @@ export default function Navbar() {
         </button>
 
         {/* Menu */}
-       <ul className={`flex flex-col md:flex-row gap-4 md:gap-6 font-bold text-[16px] uppercase 
-  absolute md:static bg-[#2C3E50] w-full left-0 md:w-auto px-4 md:px-0 
+      <ul
+  className={`flex flex-col md:flex-row 
+  items-center md:items-center 
+  justify-center md:justify-end
+  gap-4 md:gap-6 
+  font-bold text-[16px] uppercase 
+  absolute md:static 
+  bg-[#2C3E50] 
+  w-full left-0 md:w-auto 
+  px-4 md:px-0 
+  text-center
   transition-all duration-300 ease-in-out 
   ${isOpen ? 'top-[64px]' : 'top-[-400px]'} 
-  md:top-auto
-`}>
+  md:top-auto`}
+>
+
 
           <li>
             <NavLink to="/About" onClick={() => setIsOpen(false)}>
@@ -61,7 +71,7 @@ export default function Navbar() {
               Portfolio
             </NavLink>
           </li>
-          <li>
+          <li className='mb-8 md:mb-0'>
             <NavLink to="/Contact" onClick={() => setIsOpen(false)}>
               Contact
             </NavLink>
