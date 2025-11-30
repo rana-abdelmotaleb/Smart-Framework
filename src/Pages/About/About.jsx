@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
   return (
     <section className='bg-[#1ABC9C] h-[98vh] flex flex-col justify-center items-center pt-30'>
-     <h2 className='text-white text-[40px] font-bold mb-4 uppercase'>about component</h2>
+     <h2 className='text-white text-[40px] text-center font-bold mb-4 uppercase'>about component</h2>
     
        <div className="relative flex items-center justify-center text-white mb-5">
                          
